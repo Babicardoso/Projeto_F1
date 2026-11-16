@@ -1,33 +1,31 @@
-# 🏎️ PITWALL — Portal de Automobilismo
+# 🏎️ PITWALL — Projeto de Estudo em HTML e CSS
 
-Projeto prático de desenvolvimento front-end focado na estruturação semântica com **HTML5** e estilização moderna e responsiva com **CSS3**, utilizando temáticas de automobilismo e Fórmula 1.
+Este repositório contém o projeto **PITWALL**, desenvolvido por mim como atividade prática para consolidar meus conhecimentos em estruturação de páginas com **HTML5** e estilização responsiva com **CSS3**.
 
----
-
-## 🎯 Objetivo do Projeto
-
-Construir uma página web completa e responsiva para exibição de pilotos, classificação do campeonato e reserva de ingressos, aplicando técnicas avançadas de layout (Flexbox e CSS Grid), variáveis CSS, tipografia externa e estilização temática.
+O objetivo do trabalho foi criar uma interface temática de automobilismo funcional, organizada e adaptável para diferentes tamanhos de tela, aplicando na prática os recursos modernos de layout estudados em aula.
 
 ---
 
-## 🧰 Tecnologias e Recursos Utilizados
+## 🛠️ O que eu apliquei neste projeto
 
-* **HTML5 Semântico:** Estruturação clara com uso de tags apropriadas, incluindo tabelas organizadas com `<thead>` e `<tbody>` para a tabela de classificação.
-* **Variáveis CSS (`:root`):** Gerenciamento centralizado da paleta de cores oficial das equipes.
-* **Flexbox (`display: flex`):** Alinhamento e distribuição de elementos no cabeçalho (topo), na seção principal (*Hero*) e na barra de filtros.
-* **CSS Grid (`auto-fit`):** Criação de grade responsiva e adaptável para os cards dos pilotos (`grid-template-columns: repeat(auto-fit, ...)`).
-* **Form Grid:** Organização estruturada em grade para o formulário de compra/reserva de ingressos.
-* **Design Responsivo (`@media`):** Adaptação completa do layout para dispositivos móveis (celulares e tablets).
-* **Estilização Temática e Novidades:**
-  * Integração de tipografia personalizada via **Google Fonts**.
-  * Imagem de fundo estilizada na seção de destaque.
-  * Efeito visual inspirado na **zebra da pista** (faixas alternadas vermelhas e brancas).
+Durante o desenvolvimento desta página, coloquei em prática os seguintes conceitos e técnicas:
+
+* **Variáveis CSS (`:root`):** Criei variáveis globais para armazenar e reutilizar facilmente as cores oficiais das equipes ao longo do código.
+* **Flexbox (`display: flex`):** Utilizei o alinhamento flexível para estruturar o cabeçalho (topo), a seção principal (*Hero*) e a barra de filtros.
+* **CSS Grid com `auto-fit`:** Montei a vitrine com os cards dos pilotos usando `grid-template-columns: repeat(auto-fit, ...)`, fazendo com que os cards se ajustem automaticamente à largura da tela.
+* **Form Grid:** Estruturei os campos do formulário de ingressos em formato de grade para manter o alinhamento visual.
+* **Tabelas Semânticas:** Construí a tabela de classificação separando devidamente o cabeçalho (`<thead>`) e o corpo (`<tbody>`).
+* **Responsividade (`@media`):** Adicionei *media queries* para garantir que o layout funcione bem e seja legível também em dispositivos móveis (celulares).
+* **Detalhes Visuais e Novidades:** 
+  * Importei e apliquei uma tipografia personalizada através do **Google Fonts**.
+  * Configurei uma imagem de fundo na seção de destaque.
+  * Criei o detalhe visual da **zebra da pista** para reforçar a identidade visual de corrida.
 
 ---
 
 ## 📂 Estrutura de Pastas
 
-A organização dos diretórios e arquivos do projeto segue estritamente o padrão abaixo:
+Organizei os arquivos do projeto seguindo exatamente a estrutura solicitada para a entrega:
 
 ```text
 pit-wall/
@@ -36,13 +34,5 @@ pit-wall/
 └── img/
     └── piloto.jpg
 ```
-
----
-
-## 🚀 Como Executar o Projeto
-
-1. Faça o download ou clone este repositório na sua máquina.
-2. Certifique-se de que a imagem `piloto.jpg` esteja devidamente salva dentro da pasta `img/`.
-3. Abra o arquivo `index.html` diretamente em qualquer navegador web moderno (Chrome, Firefox, Edge, Safari) ou utilize a extensão **Live Server** no VS Code.
 
 ---
